@@ -18,7 +18,7 @@ beforeEach(async () => {
       data: bytecode,
       arguments: ['Hi there!']
     })
-    .send({ from: accounts[0], gas: '1000000' })
+    .send({ from: accounts[0], gas: '1000000' });
 });
 
 describe('Inbox', () => {
